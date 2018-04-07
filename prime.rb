@@ -5,9 +5,9 @@ def prime?(integer)
   array_of_numbers.any? do |num|
 
     if integer % num == 0
-      false
-    else
       true
+    else
+      false
     end
   end
 end
